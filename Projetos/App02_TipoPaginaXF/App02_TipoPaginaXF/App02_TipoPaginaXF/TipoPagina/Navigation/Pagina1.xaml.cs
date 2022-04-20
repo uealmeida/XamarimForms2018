@@ -25,5 +25,11 @@ namespace App02_TipoPaginaXF.TipoPagina.Navigation
 
         }
 
+        private void ChamarMaster(object sender, EventArgs args)
+        {
+            //Utilizado para: MasterDetail, TabbedPage e CarrolselPage
+            App.Current.MainPage = new Master.Master();    
+
+        }
     }
 }
